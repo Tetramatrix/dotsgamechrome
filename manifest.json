@@ -1,0 +1,10 @@
+{
+  "name": "Dots and Games",
+  "version": "0.1",
+  "permissions": ["history"],
+  "chrome_url_overrides": {
+    "newtab": "example.html"
+  },
+  "manifest_version": 2,
+  "content_security_policy": "unsafe-inline; script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
